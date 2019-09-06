@@ -1,3 +1,6 @@
+ERAnet - Documentación
+=================================
+
 .. toctree::
     :maxdepth: 3
 
