@@ -1,4 +1,4 @@
-ERAnet - Documentación
+ERAnet
 =================================
 
 
