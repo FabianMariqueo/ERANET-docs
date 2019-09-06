@@ -3,7 +3,7 @@
 Metodología AD-HOC
 =================================
 
-.. image:: AD_HOC.jpg
+.. image:: images/AD_HOC.jpg
 
 
 Identifación de los Stakeholders
@@ -88,8 +88,8 @@ Especificación de Historias de Usuario
 
 Diagrama Historia de Usuario != Caso de Uso
 
-.. image:: Historia_de_Usuario.png
+.. image:: images/Historia_de_Usuario.png
 
 
 
-.. image:: Historia_de_Usuario_2.png
+.. image:: images/Historia_de_Usuario_2.png
