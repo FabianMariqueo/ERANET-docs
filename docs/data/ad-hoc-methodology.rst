@@ -75,5 +75,14 @@ Historias de Usuario
 Especificación de Historias de Usuario
 -------------------------------------------
 
-
-
++-------------------------+------------------------------+--------------------------+------------------------------------+
+| **Id_Usuario**          | **Yo como**                  |   **Quiero**             |  **... de modo que...**            |
++-------------------------+------------------------------+--------------------------+------------------------------------+
+|     US1                 |   Testigo                    |Documentar mi experiencia |Otros puedan aprender de            |
+|                         |                              |en un desastre natural.   |esta experiencia para mejorar       |
+|                         |                              |                          |su preparaciones futuras en D.N     |
++-------------------------+------------------------------+--------------------------+ -----------------------------------+
+|     US2                 |   Testigo                    |Revisar y recordar mi     |Para mejorar o modificar o precisar |
+|                         |                              |testimonio.               |aspectos de la experiencia.         |
+|                         |                              |                          |                                    |
++-------------------------+------------------------------+--------------------------+ -----------------------------------+
