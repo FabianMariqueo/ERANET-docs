@@ -3,10 +3,11 @@
 Metodología AD-HOC
 =================================
 
-.. figure:: images/AD_HOC.jpg
+.. image:: images/AD_HOC.jpg
     :scale: 30 %
     :align: center
--
+..
+
 
 Identifación de los Stakeholders
 -------------------------------
