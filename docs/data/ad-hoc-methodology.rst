@@ -1,6 +1,6 @@
 .. -*- coding: utf-8 -*-
 
-Siguiendo la Metodología AD-HOC
+Metodología AD-HOC
 =================================
 
 .. image:: images/AD_HOC.jpg
@@ -8,25 +8,69 @@ Siguiendo la Metodología AD-HOC
     :align: center
 
 
-Vision y Objetivo
-------------------
-La complejidad inherente de los actuales sistemas hace necesario diseñar una apropiada
-arquitectura para los sistemas, de modo de enfrentar los diversos cambios requeridos, así
-como satisfacer los requisitos funcionales como no funcionales.
-En esta ocasión, se requiere diseñar un sistema que permita capturar parámetros
-medioambientales (temperatura y humedad) y proveer una plataforma web que permita
-visualizar en forma gráfica las temperaturas durante el dia. Se requiere además, que dicha
-aplicación, pueda ser vista desde un equipo móvil (android), pero en este caso, se requiere
-enviar preguntas específicas que deben ser almacenadas en el sitio web, para ser
-respondidas y que sean visibles para todos los usuarios.
-
-Se identifican los Stakeholders
+Identifación de los Stakeholders
 -------------------------------
-Para la realización del proyecto se ha identificado 3 tipos de usuarios.
-Usuarios Web: Es aquel usuario que se conecta al sistema desde la web.
-Usuario Móvil: Es aquel usuario que se conecta al sistema desde una App Móvil.
-Usuario Moderador: Es aquel usuario que autoriza o niega las preguntas enviadas por un usuario.
+Se aprecian los siguientes Stakeholders:
 
-Se definen los objetivos
+Stakeholders
+~~~~~~~~~~~
++-------+--------------------------------+-----------------+-----------------------------------------------------------+
+| **N°**|       **Nombre**               |     **Tipo**    |                 **Observaciones**                         |
++-------+--------------------------------+-----------------+-----------------------------------------------------------+
+| 01    |       Alumnos                  |      Usuarios   |          Quieren conocer acerca de desastres naturales    |
++-------+--------------------------------+-----------------+-----------------------------------------------------------+
+| 02    |      Profesores                |      Usuarios   |           Quieren conocer acerca de desastres naturales   |
++-------+--------------------------------+-----------------+-----------------------------------------------------------+
+| 03    |      Planeadores de Ciudad     |      Usuarios   |           Tips acerca de aspectos de desastres naturales  |
++-------+--------------------------------+-----------------+-----------------------------------------------------------+
+| 04    |     Org. rel D.N               |      Usuario    |            ej: ONEMI                                      |
++-------+--------------------------------+-----------------+-----------------------------------------------------------+
+| 05    |      Investigador              |      Usuario    |              Open Data                                    |
++-------+--------------------------------+-----------------+-----------------------------------------------------------+
+| 06    |       Testigo                  |      Usuario    |                -                                          |
++-------+--------------------------------+-----------------+-----------------------------------------------------------+
+
+Vision
+------------------
+- Sistema de enseñanza para el area de Desastres Naturales.
+- Sistema de apoyo a la toma de deciciones.
+- Sistema de referencia de guias para mejorar la adaptación de buenas prácticas en materia de Desastres Naturales de una ciudad.
+- Sistemas de datos abiertos (open data).    
+
+Objetivos
 -------------------------
-De acuerdo a cada uno de los usuarios identificados los los objetivos que esperan cumplir cada uno de ellos.
+- Preveer material acerca de Desastres Naturales con fines de enseñanza tanto para profesores y alumnos.
+- Preveer ejemplos de buenas practicas acerca de Desastres Naturales para mejorar la planeación de ciudades.
+- Proveer información gráfica que permita apoyar el proceso de toma de desiciones relacionadas con la "preaparación para Desastres Naturales".
+
+Áreas
+-------------------------
+- Ingreso o Captura de Información.
+- Administración
+- Datos Abiertos
+- Enseñanza 
+- Buenas Prácticas 
+- Visualización de Resultados
+
+Historias de Usuario
+-------------------------
+
++--------------------------+--------------------------------+------------------+------------------------+-------------------------------------+---------------------------+---------------------+
+|  **Usuario**             |   **Captura de Información**   |   **Enseñanza**  |   **Buenas Prácticas   |  **Visualización de Resultados**    |     **Administración**    |   **Open Data**     |
++--------------------------+--------------------------------+------------------+------------------------+-------------------------------------+---------------------------+---------------------+
+|   Alumnos                |                                |         ✓        |                        |                  ✓                  |                           |                     |
++--------------------------+--------------------------------+------------------+------------------------+-------------------------------------+---------------------------+---------------------+
+|   Profesores             |                                |         ✓        |                        |                  ✓                  |             ✓             |                     |
++--------------------------+--------------------------------+------------------+------------------------+-------------------------------------+---------------------------+---------------------+
+| Planeadores de Ciudades  |                                |                  |            ✓           |                  ✓                  |                           |                     |
++--------------------------+--------------------------------+------------------+------------------------+-------------------------------------+---------------------------+---------------------+
+|  Agencia u Organización  |                                |                  |                        |                  ✓                  |                           |                     |
++--------------------------+--------------------------------+------------------+------------------------+-------------------------------------+---------------------------+---------------------+
+|  Investigadores          |                ✓               |                  |                        |                  ✓                  |                           |                     |
++--------------------------+--------------------------------+------------------+------------------------+-------------------------------------+---------------------------+---------------------+
+|  Testigos                |                ✓               |                  |                        |                                     |             ✓             |                     |      
++--------------------------+--------------------------------+------------------+------------------------+-------------------------------------+---------------------------+---------------------+
+
+
+
+
