@@ -90,4 +90,6 @@ Diagrama Historia de Usuario != Caso de Uso
 
 .. image:: Historia_de_Usuario.png
 
+
+
 .. image:: Historia_de_Usuario_2.png
