@@ -85,4 +85,4 @@ Especificación de Historias de Usuario
 |     US2                 |   Testigo                    |Revisar y recordar mi     |Para mejorar o modificar o precisar |
 |                         |                              |testimonio.               |aspectos de la experiencia.         |
 |                         |                              |                          |                                    |
-+-------------------------+------------------------------+--------------------------+ -----------------------------------+
++-------------------------+------------------------------+--------------------------+------------------------------------+
