@@ -89,7 +89,8 @@ Especificación de Historias de Usuario
 Diagrama Historia de Usuario != Caso de Uso
 
 .. image:: images/Historia_de_Usuario.png
-
+   :width: 600
 
 
 .. image:: images/Historia_de_Usuario_2.png
+   :width: 600
